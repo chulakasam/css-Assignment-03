@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Assests/normalize.css">
+    <style>
+        section{
+            width: 100vw;
+            height:100vh;
+            border: 2px solid black;
+            position: relative;
+        }
+        div{
+            width: 50%;
+            height:50%;
+        }
+        #d1{
+            background-color: red;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+        #d2{
+            background-color: green;
+            top: 0;
+            right: 0;
+            position: absolute;
+        }
+        #d3{
+            background-color: yellow;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+        }
+        #d4{
+            background-color: deeppink;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+        }
+
+        #f1{
+            width: 200px;
+            height: 200px;
+            border-radius: 150%;
+            background-color: white;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            margin: auto;
+        }
+
+        #f2{
+            width: 200px;
+            height: 200px;
+            border-radius: 150%;
+            background-color: white;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            margin: auto;
+
+        }
+        #f3{
+            width: 200px;
+            height: 200px;
+            border-radius: 150%;
+            background-color: white;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            margin: auto;
+        }
+        #f4{
+            width: 200px;
+            height: 200px;
+            border-radius: 150%;
+            background-color: white;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            margin: auto;
+        }
+        #s1{
+            width: 25%;
+            height: 25%;
+            background-color: red;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            margin: auto;
+
+        }
+        #s2{
+            width: 25%;
+            height: 25%;
+            background-color: red;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            margin: auto;
+
+        }
+        #s3{
+            width: 25%;
+            height: 25%;
+            background-color: red;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            margin: auto;
+
+        }
+        #s4{
+            width: 25%;
+            height: 25%;
+            background-color: red;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            margin: auto;
+
+        }
+        #f5{
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            position: absolute;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        #s5{
+            width: 50%;
+            height:50%;
+            border-radius: 100%;
+            background-color: red;
+            position: absolute;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+
+        #a1{
+            width: 150px;
+            height: 150px;
+            border-radius: 0 0 150px 0;
+            background-color: white;
+            position: absolute;
+            left:0;
+            top:0;
+        }
+        #a2{
+            width: 150px;
+            height: 150px;
+            border-radius: 0 0 0 150px;
+            background-color: white;
+            position: absolute;
+            right:0;
+            top:0;
+        }
+        #a3{
+            width: 150px;
+            height: 150px;
+            border-radius:   0 150px 0 0;
+            background-color: white;
+            position: absolute;
+            left:0;
+            bottom:0;
+        }
+        #a4{
+            width: 150px;
+            height: 150px;
+            border-radius:  150px 0 0 0;
+            background-color: white;
+            position: absolute;
+            right:0;
+            bottom:0;
+        }
+        /*final part*/
+        /*#f6{*/
+        /*    width: 100px;*/
+        /*    height: 100px;*/
+        /*    border-radius: 100%;*/
+        /*    background-color: white;*/
+        /*    */
+        /*}*/
+
+        #f6{
+            width: 12.5%;
+            height: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0 0 100px 100px;
+
+
+            position: absolute;
+            left: 43.75%;
+            top: 0;
+
+            margin: auto;
+        }
+        #f7{
+            width: 12.5%;
+            height: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100px 100px 0 0;
+
+
+            position: absolute;
+            right: 43.75%;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div id="d1">
+        <div id="a1">
+
+        </div>
+        <div id="f1">
+            <div id="s1">
+
+            </div>
+        </div>
+    </div>
+    <div id="d2">
+        <div id="a2">
+
+        </div>
+        <div id="f2">
+            <div id="s2"></div>
+        </div>
+    </div>
+    <div id="d3">
+        <div id="a3">
+
+        </div>
+        <div id="f3">
+            <div id="s3"></div>
+        </div>
+    </div>
+    <div id="d4">
+        <div id="a4">
+
+        </div>
+        <div id="f4"> <div id="s4"></div></div>
+    </div>
+    <div id="f5">
+        <div id="s5">
+
+        </div>
+    </div>
+    <div id="f6">
+    </div>
+    <div id="f7">
+
+    </div>
+
+</section>
+
+</body>
+</html>
